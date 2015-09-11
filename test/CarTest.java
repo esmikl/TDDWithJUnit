@@ -29,6 +29,7 @@ public class CarTest {
 	public void canDoToString(){
 		Car car1 = new Car("Red", 100);
 		assertThat(car1.toString(), is("Color: Red, Speed: 0"));
+		System.out.println(car1.toString());
 	}
 
 	// Create and pass test for deceleration.
